@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    // bài 1: sử dụng function bình thường, viết hàm tính tổng 3 số,
+    // gọi hàm thực hiện tổng 3 số 5,10,15 và in kết quả
+    function add(number1, number2, number3) {
+        let sum = number1 +number2 + number3;
+        return sum;
+    }
+    sum = add(5,10,15);
+    console.log('Tổng của 3 số là : ',sum);
+
+    // bài 2: sử dụng expression function, viết hàm in ra giá trị các phần tử của mảng
+
+    let printElement = function(arr) {
+       for (let i=0; i<arr.length; i++){
+       } 
+       console.log(arr);
+    }
+    let arr=[1,2,3,4,5];
+    printElement(arr);
+
+
+    // bài 3: Sử dụng arrow funtion, viết hàm tính tích của 2 số, 
+    // gọi hàm và in ra kết quả tích 2 số 5 và 10
+
+    let add3 = (number1, number2) => {
+            return number1 * number2;
+        }
+    let product = add3(5, 10);
+    console.log('Tích của 2 số là ' , product);
+        
+   </script> 
+</body>
+</html>

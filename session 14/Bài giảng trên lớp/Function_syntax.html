@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function helloFukuoka() {
+            alert('Xin chào các bạn Fukuoka');
+        }
+        // Chỉ khi gọi hàm (dòng dưới) thì mới chạy và hiển thi ra alert
+        helloFukuoka();
+        // Xây dựng 1 hàm có tên là 
+        function helloPerson (personName) {
+            alert('Xin chào '+personName);
+            // return: trả về kết quả sau khi thực hiện hàm
+        }
+        // Gọi hàm
+        helloPerson(personName);
+
+        // Xây dựng hàm tính tổng 2 số, 
+        function add(number1, number2) {
+            let sum = number1 + number2;
+            // return là kết thúc 1 hàm
+            return sum;
+            // Các câu lệnh sau return k đc thực hiện
+        }
+        let total = add(5,10);
+        console.log(("Tổng 2 số ", sum));
+    </script>
+</body>
+</html>

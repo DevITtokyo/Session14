@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Thực hành] Chuyển đổi nhiệt độ</title>
+    <script src="./script_th2.js"></script>
+</head>
+<body>
+    <div>
+        <label> Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+                ouinput ="temperatureConverter(this value)"
+                onchange="temperatureConverter(this.value)">
+        <style>
+           label, p {
+            font-size: 50px;
+            padding: 10px;
+            margin: 20px;
+           }
+           input {
+            font-size: 30px;
+            padding: 10px;
+            margin-top: 30px;
+           }
+           div {
+            width: 700px;
+            height: 250px;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 1px #aaa;
+            box-shadow: 1px 1px 10px;
+            margin: 50px auto;
+           }
+           
+        </style>
+   
+        <p>Celsius: <span id= "outputCelsius"></span></p>
+    </div>
+</body>
+</html>
